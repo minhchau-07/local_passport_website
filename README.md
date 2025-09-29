@@ -1,4 +1,4 @@
-# Local Passport Authentication Service
+# Local Passport Website
 
 This project demonstrates authentication using **Passport.js (LocalStrategy)**, **express-session**, and **MongoDB**, with an **EJS frontend**.  
 
@@ -33,7 +33,9 @@ POST /register
 Body (x-www-form-urlencoded):
 
 Key	       Value
+
 username     admin
+
 password	    12345
 
 -Postman Result:
@@ -50,7 +52,9 @@ POST /login
 Body (x-www-form-urlencoded):
 
 Key	       Value
+
 username     admin
+
 password	    12345
 
 -Postman Result:
